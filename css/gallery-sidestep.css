@@ -1,0 +1,50 @@
+
+div.foogallery-sidestep img
+{
+   margin-bottom: 5px;
+   width: 100%;
+   max-width: 100%;
+   display: inline-block;
+   
+} 
+
+.foogallery-sidestep-captions-caption {
+   position: absolute; 
+   left: 0px; 
+   bottom: 0px; 
+   white-space: normal;
+   background-color: rgba(255, 255, 255, 0.6);
+   color: black;
+   font-size: 12px;
+   font-weight: 500;
+   margin: 0;
+   padding: 5px;
+   margin-bottom: 10px;
+   visibility: hidden;
+}
+
+div.foogallery-sidestep A:hover .foogallery-sidestep-captions-caption
+{
+   visibility:visible;
+}
+
+@media screen and (min-width: 673px) {
+ 
+   div.foogallery-sidestep
+   {
+      width: 100%;
+      overflow:auto;
+      white-space:nowrap;
+      margin-bottom: 55px;
+   }
+   div.foogallery-sidestep img
+   {
+      margin-right: 5px;
+      margin-bottom: 0px;
+      height: 100% !important;
+      max-width: none !important;
+      width: inherit;
+      
+   } 
+ 
+}
